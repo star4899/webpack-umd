@@ -1,2 +1,7 @@
 # webpack-umd
-webpack library build - UMD
+
+
+## Build
+```
+$ npm run build
+```
