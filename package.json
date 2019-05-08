@@ -5,7 +5,7 @@
   "main": "src/indexjs",
   "scripts": {
     "dev": "webpack-dev-server --mode development --progress --open",
-    "build": "rimraf dist && webpack --mode production --progress"
+    "build": "webpack --mode production --progress"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
