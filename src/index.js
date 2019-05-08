@@ -1,8 +1,6 @@
-function Skydown(){
-	
-};
-Skydown.prototype.click = function(){
-	console.log("clicked");
-};
+import Skydown from "./Skydown";
 
-module.exports = Skydown;
+export default Skydown;
+export {
+	Skydown
+};
